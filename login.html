@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id"> <!-- Menetapkan bahasa halaman sebagai Bahasa Indonesia -->
+<head>
+    <meta charset="UTF-8"> <!-- Menentukan karakter encoding sebagai UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mengatur responsivitas halaman untuk perangkat mobile -->
+    <title>Profil Saya</title> <!-- Judul halaman yang akan ditampilkan di tab browser -->
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';           /* Mengizinkan semua sumber dari domain yang sama */
+        img-src 'self';               /* Mengizinkan gambar hanya dari domain yang sama */
+        script-src 'self';            /* Mengizinkan skrip hanya dari domain yang sama */
+        style-src 'self';             /* Mengizinkan CSS hanya dari domain yang sama */
+        connect-src 'self';           /* Mengizinkan koneksi (XHR, WebSocket, dll.) hanya dari domain yang sama */
+        font-src 'self';              /* Mengizinkan font hanya dari domain yang sama */
+    ">
+</head>
+<body>
+    <h1>Profil Saya</h1> <!-- Judul utama halaman profil -->
+
+    <!-- Gambar profil dengan ukuran 50x50 piksel -->
+    <img src="C:\Users\LENOVO GAMING\OneDrive\Pictures\Wallpaper\GYJ.jpg" alt="Foto Profil" width="50" height="50">
+
+    <h2>GYJ</h2> <!-- Subjudul untuk menampilkan nama -->
+    
+    <!-- Deskripsi singkat tentang diri -->
+    <p>Deskripsi singkat tentang diri saya. Saya pokonya begitu.</p>
+    
+    <div>
+        <!-- Informasi kontak -->
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p> <!-- Tautan untuk mengirim email -->
+        <p>Telepon: <a href="tel:+628123456789">+62 812-3456-789</a></p> <!-- Tautan untuk menelepon -->
+    </div>
+</body>
+</html>
